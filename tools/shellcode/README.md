@@ -1,10 +1,10 @@
-### Credits
-Shellcode Makefile and template written by [Dr. Yeongjin Jang](http://unexploitable.systems)
+## Credits
+Shellcode `Makefile` written by [Dr. Yeongjin Jang](http://unexploitable.systems)
 
-### Dependencies
+## Dependencies
 TBD
 
-### Usage
+## Usage
 For all functionality, check the `Makefile`
 
 #### `make 32` and `make 64`
