@@ -1,3 +1,6 @@
+### Credits
+Shellcode Makefile and template written by [Dr. Yeongjin Jang](http://unexploitable.systems)
+
 ### Dependencies
 TBD
 
