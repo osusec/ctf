@@ -25,4 +25,7 @@ On OTW server:
 $ cd /tmp/tmp.AaSsDdFf1
 
 $ tar xvzf ctf.tar.gz
+[output snipped]
 ```
+
+You now can work with the CTF repo data on an OverTheWire game server, or any wargame system that blocks outbound connections!
