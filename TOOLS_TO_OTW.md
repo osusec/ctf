@@ -16,7 +16,7 @@ $ tar cvzf ctf.tar.gz ctf/
 
 $ scp -P [game port] ctf.tar.gz [username]@[game].lab.overthewire.org:/tmp/tmp.AaSsDdFf1
 This is a OverTheWire game server. More information on http://www.overthewire.org/wargames 
-[username]@[game].labs.overthewire.org's password:                                                                                                                                                              
+[username]@[game].labs.overthewire.org's password:
 ctf.tar.gz                                                                       100%   19KB  48.2KB/s   00:00    
 ```
 
