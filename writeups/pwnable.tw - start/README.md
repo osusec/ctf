@@ -36,7 +36,7 @@ Here's what the function does:
  3. Build the string `Let's start the CTF:` on the stack
  4. Setup arguments for write syscall
  5. Make the syscall: `write(1, %esp, 20)`
-   - `esp` points to the string "Let's start the CTF:"
+    - `esp` points to the string "Let's start the CTF:"
  6. Setup arguments for read syscall
  7. Make the syscall: `read(0, %esp, 60)`
  8. Reset stack and return
