@@ -2,6 +2,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 int main() {
 	unsigned int flag = 0x12345678;
@@ -9,7 +10,8 @@ int main() {
 
 	puts("Welcome to the CTF my dude: ");
 
-	fgets(input, BUFFER*2, 0);
+    memset(input, 0, BUFFER);
+	fgets(input, BUFFER*2, stdin);
 
 	if (flag == 0xdeadbeef) {
 		puts("You win!");
