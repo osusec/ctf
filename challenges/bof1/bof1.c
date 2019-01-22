@@ -9,9 +9,11 @@ int main() {
 	char input[BUFFER];
 
 	puts("Welcome to the CTF my dude: ");
+	fflush(stdout);
 
     memset(input, 0, BUFFER);
 	fgets(input, BUFFER*2, stdin);
+	fflush(stdin);
 
 	if (flag == 0xdeadbeef) {
 		puts("You win!");

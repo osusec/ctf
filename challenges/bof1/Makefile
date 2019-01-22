@@ -1,5 +1,5 @@
 CC=gcc
-C_FLAGS=-fno-stack-protector -z execstack
+C_FLAGS=-fno-stack-protector -z execstack -m32
 
 EXE=bof1
 
