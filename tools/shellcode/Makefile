@@ -15,7 +15,7 @@ objdump:
 	@objdump -d shellcode.o
 
 print:
-	@python -c "import sys; print repr(sys.stdin.read())" < shellcode.bin
+	@python -c "import sys; print(repr(sys.stdin.buffer.read()))" < shellcode.bin
 
 dump:
 	@xxd shellcode.bin
